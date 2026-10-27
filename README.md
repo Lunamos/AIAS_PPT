@@ -1,6 +1,6 @@
 # FlyGM · AIAS+ 2026 Oral（V2）
 
-- 成品：`output/FlyGM_AIAS2026_Oral_V2.pptx`（16 页，保留 V1 的三段视频）
+- 成品：`output/FlyGM_AIAS2026_Oral_V2.pptx`（17 页，全部白底；保留 V1 的三段视频）
 - 预览：`output/FlyGM_AIAS2026_Oral_V2_preview.pdf`、`output/preview/slide-XX.jpg`（LibreOffice 渲染，字体和图表与 PowerPoint 略有差异）
 - 每页都有英文讲稿（备注），标了目标时长，合计约 13.5 分钟；第 10 页可选，超时可以跳过。
 
@@ -8,9 +8,9 @@
 
 | # | 页面 | 改动 |
 |---|------|------|
-| 1 | Title | 深色封面，背景用 FlyGM 连接组力导向布局；新二维码指向 lnsgroup.cc/research/FlyGM |
+| 1 | Title | 白底封面，右侧为 FlyGM 连接组力导向布局；新二维码指向 lnsgroup.cc/research/FlyGM |
 | 2 | Why now | 原第 2 页：FlyWire 统计数字，加 2024–2026 时间线（FlyWire → 连接组约束模型 → flybody → male CNS） |
-| 3 | The 2026 debate | **新增**：Eon Systems “We’ve uploaded a fruit fly”（2026 年 3 月）及反驳文章（LessWrong、NeuroAI），连接图没有给出的三样东西 |
+| 3 | The 2026 debate | **新增**：时间线显示 FlyGM 初稿完成于 2025 年 9 月，早于 2026 年 3 月 Eon Systems 的 “We’ve uploaded a fruit fly” 和随后的争论；另列出批评者指出的、连接图没有给出的三样东西 |
 | 4 | Our approach | 原第 3 页：模拟连接组 / 训练通用网络 / FlyGM 三种路线对比，引出研究问题 |
 | 5–7 | Method, Training | 原第 4–6 页重排：三步闭环、固定 vs 学习、IL → PPO 流程 |
 | 8 | Behavior | 原第 7 页，视频保留，加任务指标 |
@@ -20,7 +20,13 @@
 | 13 | Outlook | 原第 12 页：**重新渲染**的 male CNS 图（数据来自 FlyEM 公开的 v1.0 版本：脑与 VNC 外壳 + 约 280 个采样神经元，下行/上行/运动神经元分色），数字从数据中核对过 |
 | 14 | Takeaways | 原第 13 页：三张结论卡片，加一句“Not an upload, but a testable, connectome-structured controller” |
 | 15 | Thank you | 演示页链接和二维码，不再提代码 |
-| 16 | References and resources | 统一格式的编号参考文献 [1]–[24]，正文脚注按编号引用，并标注论文的 §/Fig./Table |
+| 16–17 | References and resources | 统一格式的编号参考文献 [1]–[20]，分两页，字号 11pt；正文脚注按编号引用，并标注论文的 §/Fig./Table |
+
+## 字号与排版
+
+- 标题 28pt；正文 13–16pt；脚注 10pt（V1 为 8–9pt）
+- 生成脚本用 Arial 等宽字体（Liberation Sans）逐个检查文本框，文字溢出时会报警，当前为 0 条
+- 第 9 页左图：横轴固定在对数纵轴的最小值处，刻度标签放在图表底部，PowerPoint 中不会再与曲线重叠
 
 ## 待办：演示页截图
 
